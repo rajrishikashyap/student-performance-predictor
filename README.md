@@ -1,16 +1,16 @@
-# 🎓 Student Performance Predictor
+#  Student Performance Predictor
 
 This project uses Machine Learning to **predict whether a student will pass or fail** based on their personal, academic, and social background.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Educational institutions often need to identify students who might be at risk of failing so that early intervention can be provided. This project applies a classification model on a real-world dataset to make such predictions.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Source:** [UCI Student Performance Dataset](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
 - **Total Rows:** 395 students
@@ -18,7 +18,7 @@ Educational institutions often need to identify students who might be at risk of
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
 1. Data Cleaning and Preprocessing  
 2. Feature Engineering and One-Hot Encoding  
@@ -30,7 +30,7 @@ Educational institutions often need to identify students who might be at risk of
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 - **Model Used:** Random Forest Classifier  
 - **Accuracy Achieved:** ~60%  
@@ -41,7 +41,7 @@ Educational institutions often need to identify students who might be at risk of
 
 ---
 
-## 🎯 Prediction Sample (Visualization Included)
+##  Prediction Sample (Visualization Included)
 
 This notebook includes a section to **predict a new student's outcome** and visualize:
 - Their feature values in a horizontal bar chart
