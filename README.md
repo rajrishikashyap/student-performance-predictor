@@ -49,15 +49,16 @@ This notebook includes a section to **predict a new student's outcome** and visu
 
 ---
 
-## 💡 Key Learnings
+## What I Learned (and What Surprised Me)
 
-- Data Cleaning and Encoding
-- Model Building and Evaluation
-- Binary Classification using real-world features
-- Visualizing Prediction Inputs
-- Jupyter-Only ML Workflow (No IDE required)
+The model only hit ~60% accuracy, which initially felt like a failure. But digging into the confusion matrix 
+revealed something interesting: the model was systematically wrong about students with moderate social activity 
+scores, not the extremes. This pointed to the feature "going out frequency" being noisier than I expected, 
+and raised a real question about whether self-reported social data is reliable enough for prediction.
 
----
+The bigger lesson: a 60% accurate model that surfaces a real data quality problem is more useful than a 
+95% accurate model on clean synthetic data. I learned to treat model failures as diagnostic tools, not just 
+failure states.
 
 ## 🚀 How to Run
 
